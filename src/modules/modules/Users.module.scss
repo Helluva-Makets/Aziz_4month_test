@@ -1,0 +1,40 @@
+.userFrame {
+    max-width: 651px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 17px;
+    background: #ffe64380;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 28px;
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 200px;
+        width: 100%;
+        height: 47px;
+        background: rgb(0, 0, 0);
+        border: 1px solid cyan;
+        // text style
+        color: rgb(235, 49, 49);
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        
+    }
+}
+
+.userFrame:hover {
+    cursor: pointer;
+    background: crimson;
+    padding: 16px 34px;
+}
+
+.userFrame__info:hover {
+    border: 1px solid #ffe743;
+    cursor: wait;
+}

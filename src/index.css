@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* отмена выджеления */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+html {
+    scrollbar-color: crimson #000307;
+}
+
+body {
+    background: #000307;
+}
