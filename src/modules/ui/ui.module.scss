@@ -1,0 +1,15 @@
+.componentBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    height: 47px;
+    background: rgb(217, 217, 217);
+    &__title {
+        color: rgb(0, 0, 0);
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}

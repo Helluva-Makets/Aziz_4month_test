@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Anna",
+      "email": "anna@mail.ru",
+      "username": "anna123"
+    },
+    {
+      "id": "2",
+      "name": "Robert",
+      "email": "robert@mail.ru",
+      "username": "robert555"
+    },
+    {
+      "id": "3",
+      "name": "Artem",
+      "email": "hohol@mail.eu",
+      "username": "zaukr"
+    },
+    {
+      "id": "4bbc"
+    },
+    {
+      "id": "e6b5"
+    },
+    {
+      "id": "3c28"
+    },
+    {
+      "id": "8148"
+    },
+    {
+      "id": "dcfb"
+    },
+    {
+      "id": "1b9d"
+    },
+    {
+      "id": "b25e"
+    },
+    {
+      "id": "5316"
+    }
+  ]
+}

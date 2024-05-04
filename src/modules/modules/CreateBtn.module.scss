@@ -1,0 +1,19 @@
+.create__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    height: 47px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+    border: 2px solid #ffe743;
+}
+    .create__btn:hover {
+        background: #ffe743;
+        color: #000;
+    }
