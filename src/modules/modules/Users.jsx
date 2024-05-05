@@ -14,10 +14,17 @@ export default function Users () {
         responce()
     }, [])
 
-
+    // если сревер не активен, уведомление о пустом списке
     if (!user || user.length === 0) {
         // return <div>Loading...</div>
-        return <div>СПИСОК ПУСТ...</div>
+        return <div className={styles.undefUsers}>СПИСОК ПУСТ...</div>
+    }
+
+
+    const deleteUserId = async (id) => {
+        await axios.delete(`http://localhost:8000/users/${id}`)
+        setUsers(user.filter(item => item.id !== id))
+        console.log(`User delete - ID_${id}`);
     }
 
     return (
@@ -27,6 +34,12 @@ export default function Users () {
                     <h1 className={styles.userFrame__info}>{item.name}</h1>
                     <h2 className={styles.userFrame__info}>{item.email}</h2>
                     <h3 className={styles.userFrame__info}>{item.username}</h3>
+                    <button
+                     className={styles.userFrame__delBtn}
+                     onClick={() => deleteUserId(item.id)}
+                    >
+                        DELETE 
+                    </button>
                 </div>
             ))}
         </>

@@ -9,6 +9,11 @@
     user-select: none;
     overflow-x: hidden;
     overflow-y: visible;
+    font-family: 'RUcyber';
+}
+@font-face {
+    font-family: 'RUcyber';
+    src: url(./shared/fonts/TraktorMoodFont-Regular.otf);
 }
 
 html {

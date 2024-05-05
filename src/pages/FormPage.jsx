@@ -21,13 +21,13 @@ export default function FormPage () {
     } = useForm()
 
     // уведомление об обновлении страницы
-    const toastifyActive = () => toast('Список пользовотелей обновлен. Обновите страницу.')
+    const toastifyActive = () => toast('Список пользовотелей обновлен. Обновите страницу.*+')
 
-
+    // исп. POST запроса в react-hook-forms
     const onSubmit = async (data) => {
         const request = await axios.post('http://localhost:8000/users', data)
         postRequestForm(request.data)
-        console.warn('BD data update');
+        console.warn('user data update');
     }
 
     return (
